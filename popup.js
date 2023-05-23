@@ -1,5 +1,3 @@
-var inputField = document.getElementById("myInput2");
-
 const inputFieldS = document.getElementById('myInput2'); //смещение
 const inputField1 = document.getElementById('myInput3'); //неверный начало
 const inputField2 = document.getElementById('myInput4'); //неверный конец
