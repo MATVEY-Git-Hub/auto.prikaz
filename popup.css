@@ -71,7 +71,6 @@ input[type='number'] {
 }
 
 button {
-  font-family: 'Roboto', sans-serif;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -90,4 +89,34 @@ button:hover {
 button:active {
   background-color: #096630;
   transition: 0.01s ease;
+}
+
+.buttomGH {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  color: #fff;
+  background-color: #171515;
+}
+
+.buttomGH:hover {
+  color: #000000;
+  background-color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.buttomGH:active {
+  color: #fff;
+  background-color: #000000;
+  transition: 0.01s ease;
+}
+
+.aEl {
+  display: flex;
+}
+
+.aEl svg {
+  height: 24px;
+  width: 24px;
+  color: white;
 }
