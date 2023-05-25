@@ -49,3 +49,7 @@ function copy() {
     onClick: function () { } // Callback after click
   }).showToast();
 }
+
+function github() {
+  window.open('https://github.com/MATVEY-Git-Hub/auto.prikaz', '_blank');
+}
